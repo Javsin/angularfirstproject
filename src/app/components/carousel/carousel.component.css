@@ -1,0 +1,20 @@
+.carousel-height{
+    height: 100vh !important;
+}
+.carousel-caption {
+    right: none !important;
+    left: none !important;
+    bottom: 18rem !important;
+    text-align: start;
+}
+.carousel-indicators{
+    display: none !important;
+}
+
+/* media query mobile */
+
+@media (max-width: 767px) {
+    .carousel-height{
+        height: 100% !important;
+    }
+}
